@@ -50,6 +50,7 @@ span{
 /**Second section**/
 .about{
     height: 500px;
+    padding: 30px 0 30px 0;
 }
 .about h2{
     text-align: center;
@@ -72,4 +73,7 @@ span{
 
 .description{
     width: 50%;
+}
+.description h3{
+    color: yellow;
 }
