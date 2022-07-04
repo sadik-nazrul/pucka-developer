@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    background-color: #1D2A47;
 }
 /**Typography**/
 h1{
@@ -8,25 +9,67 @@ h1{
 }
 h2{
     font-size: 50px;
+    color: white;
     margin: 0;
 }
 h3{
     font-size: 20px;
+    color: white;
+    margin: 0;
 }
 p{
     font-size: 18px;
+    color: white;
 }
-
 /** Main Container **/
+span{
+    color: yellow;
+}
 .flexbox-container{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.half-width{
-    width: 50%;
+/**first section**/
+.info{
+    width: 70%;
 }
-.half-width img{
+.info p{
+    margin: 10px 0 0 0;
+}
+.img{
+    width: 30%;
+}
+.img img{
     width: 100%;
 }
 .hero{
-    background-color: #1D2A47;
+    height: 500px;
+    padding: 30px 50px 30px 50px;
+}
+/**Second section**/
+.about{
+    height: 500px;
+}
+.about h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about-me{
+    margin: 0 150px 0 150px;
+    box-shadow: 0px 0px 30px rgba(250, 248, 248, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+}
+.my-img{
+    width: 50%;
+}
+.my-img img{
+    width: 70%;
+    object-fit: cover;
+}
+
+.description{
+    width: 50%;
 }
